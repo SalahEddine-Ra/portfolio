@@ -208,3 +208,52 @@ function SendMail() {
     alert("Failed to send message. Please try again later.");
   });
 }
+
+// slide projects
+
+function handleProjectSections() {
+    const projectSlides = document.querySelectorAll('#myslideprojects');
+    const myprojects = document.querySelectorAll('#projects');
+    if (window.innerWidth < 768) {
+        projectSlides.forEach(slide => {
+            slide.style.display = 'block';
+        });
+        myprojects.forEach(project => {
+            project.style.display = 'none';
+        });
+    } else {
+        projectSlides.forEach(slide => {
+            slide.style.display = 'none';
+        });
+        myprojects.forEach(project => {
+            project.style.display = 'block';
+        });
+    }
+}
+
+window.addEventListener('resize', handleProjectSections);
+window.addEventListener('DOMContentLoaded', handleProjectSections);
+
+function autoScrollProjects() {
+    const slider = document.querySelector('.projects-slider');
+    if (!slider) return;
+
+    const scrollAmount = slider.offsetWidth; // Scroll by full card width
+    let scrollPos = 0;
+
+    function scrollNext() {
+        if (scrollPos + scrollAmount >= slider.scrollWidth) {
+            scrollPos = 0;
+        } else {
+            scrollPos += scrollAmount;
+        }
+        slider.scrollTo({ left: scrollPos, behavior: 'smooth' });
+    }
+
+    setInterval(scrollNext, 2500);
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('myslideprojects').style.display = 'block'; // show the section
+    autoScrollProjects();
+});
