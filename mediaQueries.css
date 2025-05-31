@@ -183,6 +183,52 @@
     .project-link:hover {
         color: var(--primary);
     }
+
+    .projects-slider {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    padding: 1rem 0;
+  }
+
+  .projects-track {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .slide {
+    flex: 0 0 80%; /* Show almost 2 per row horizontally */
+    max-width: 80%;
+    padding: 0.75rem;
+    border-radius: 10px;
+  }
+
+  .project-image img {
+    height: 150px;
+    border-radius: 6px;
+  }
+
+  .project-info h3 {
+    font-size: 1rem;
+  }
+
+  .project-info p {
+    font-size: 0.85rem;
+  }
+
+  .project-tech span {
+    font-size: 0.75rem;
+    padding: 3px 6px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  
 }
 
 /* Media query for tablet sizes (1000px) */

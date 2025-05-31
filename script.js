@@ -5,17 +5,7 @@ window.addEventListener('load', () => {
     }, 3000);
 });
 
-// entry button
-const enterButtons = document.getElementsByClassName('entry-btn');
-Array.from(enterButtons).forEach(enter => {
-    enter.addEventListener('click', function() {
-        // Scroll to section with id "about"
-        const aboutSection = document.getElementById('about');
-        if (aboutSection) {
-            aboutSection.scrollIntoView({ behavior: 'smooth' });
-        }
-    });
-});
+
 
 // Scroll-to-top button functionality
 const scrollToTopBtn = document.getElementById("scroll-to-top");
@@ -258,6 +248,6 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 // btn to projects page
-document.getElementById("more-projects-btn").addEventListener("click", function () {
+function goToPage() {
   window.location.href = "projects.html"; // Replace with your file name
-});
+};
