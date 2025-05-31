@@ -1,3 +1,37 @@
+/* button backtohome */
+:root {
+    --primary: #00f5ff;
+    --secondary: #ff00ff;
+    --background: #050714;
+    --surface: #0a0d1f;
+    --text: #ffffff;
+    --text-secondary: rgba(255, 255, 255, 0.7);
+}
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  background: var(--background);
+  color: var(--primary);
+  padding: 0.4rem 1.2rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  font-size: 0.6rem;
+  border: #00f5ff 2px solid;
+  position: fixed;
+  z-index: 9999;
+
+}
+
+.back-button:hover {
+  background: var(--primary);
+  color: var(--background);
+  
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -99,14 +133,5 @@
   gap: 1rem;
 }
 
-.project-link {
-  text-decoration: none;
-  color: var(--text);
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
 
-.project-link:hover {
-  color: var(--primary);
-}
 

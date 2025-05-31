@@ -811,7 +811,7 @@ ul {
 .slide {
     scroll-snap-align: center;
     flex: 0 0 90%;
-    max-width: 90%;
+    max-width: 55%;
     background: #1e1e1e;
     border-radius: 12px;
     padding: 1rem;
