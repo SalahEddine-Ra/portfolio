@@ -6,7 +6,7 @@ window.addEventListener('load', () => {
 });
 
 // entry button
-const enterButtons = document.getElementsByClassName('animated-button');
+const enterButtons = document.getElementsByClassName('entry-btn');
 Array.from(enterButtons).forEach(enter => {
     enter.addEventListener('click', function() {
         // Scroll to section with id "about"
@@ -254,6 +254,10 @@ function autoScrollProjects() {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('myslideprojects').style.display = 'block'; // show the section
     autoScrollProjects();
+});
+
+// btn to projects page
+document.getElementById("more-projects-btn").addEventListener("click", function () {
+  window.location.href = "projects.html"; // Replace with your file name
 });

@@ -689,6 +689,14 @@ ul {
 .more-projects {
     text-align: center;
     margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.more-projects .animated-button {
+    margin: 0 auto;
+    display: inline-flex; /* not flex, so it doesn't stretch */
 }
 
 .animated-button {
