@@ -110,27 +110,3 @@
   color: var(--primary);
 }
 
-@media (max-width: 768px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .project-card {
-    max-width: 500px;
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 480px) {
-  .title {
-    font-size: 2rem;
-  }
-  
-  .project-info {
-    padding: 1rem;
-  }
-  
-  .project-info h3 {
-    font-size: 1.1rem;
-  }
-}
