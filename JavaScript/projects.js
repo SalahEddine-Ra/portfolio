@@ -15,7 +15,7 @@
     }
      const projects = [
             {
-                image: "portfolio.png",
+                image: "images/portfolio.png",
                 title: "Portfolio Website",
                 description: "A modern portfolio showcasing my work and skills with interactive elements.",
                 tech: ["HTML", "CSS", "JavaScript"],
@@ -23,7 +23,7 @@
                 sourceLink: "https://github.com/SalahEddine-Ra/portfolio"
             },
             {
-                image: "clearmind.png",
+                image: "images/clearmind.png",
                 title: "Task Manager",
                 description: "A minimalist task management application with real-time updates.",
                 tech: ["HTML", "CSS", "JavaScript"],
@@ -31,7 +31,7 @@
                 sourceLink: "https://github.com/SalahEddine-Ra/To-do-liste"
             },
             {
-                image: "pc.avif",
+                image: "images/pc.avif",
                 title: "E-Commerce Platform",
                 description: "A static front-end e-commerce website for sports clothing, built with HTML and CSS.",
                 tech: ["HTML", "CSS"],
@@ -39,20 +39,20 @@
                 sourceLink: "https://github.com/SalahEddine-Ra/Elites-Style"
             },
             {
-                image: "mypersonalcard.png",
+                image: "images/mypersonalcard.png",
                 title: "Personal Card",
                 description: "A sleek personal card to access my CV via QR code. Perfect for networking.",
                 tech: ["Adobe Illustrator"]
             },
             {
-                image: "edu.jpg",
+                image: "images/edu.jpg",
                 title: "Portfolio for a center",
                 description: "A modern website for an education center built with the Zertline team.",
                 tech: ["HTML", "CSS", "JavaScript"],
                 demoLink: "https://groupelexcellence.net/"
             },
             {
-                image: "mybank.png",
+                image: "images/mybank.png",
                 title: "Bank System",
                 description: "A complete banking system with user authentication and transaction management.",
                 tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Bootstrap"],
