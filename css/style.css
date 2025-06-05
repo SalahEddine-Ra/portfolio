@@ -348,10 +348,10 @@ ul {
             #fd1f1f);
 }
 
-.example-2 .icon-content a[data-social="gmail"] .filled,
+/* .example-2 .icon-content a[data-social="gmail"] .filled,
   .example-2 .icon-content a[data-social="gmail"] ~ .tooltip {
     background-color: #ff0000;
-  }
+  } */
 
 
 .animated-button {
